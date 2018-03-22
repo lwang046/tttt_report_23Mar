@@ -311,7 +311,7 @@ Steve Wimpenny \inst{2}
 	\item Event level BDT output discriminator distributions for fit is performed simultaneously in different $N_{j} \otimes N_{tags}^{M}$ categories.
 	\vspace{10pt}
 	\item Blind highest jet/tag multiplicity categories. \begin{itemize}
-		\item single lepton: blind 10+ jets \& 4+ tags category
+		\item single lepton: blind 10+ jets \& 3+ tags category
 		\item OS dilepton: blind 8+ jets \& 3+ tags category\end{itemize}
 	\vspace{10pt}
 	\item Combine results from single lepton channel and OS dilepton channel.
@@ -324,52 +324,58 @@ Steve Wimpenny \inst{2}
 \frametitle{Template Fit in Single Lepton Channel}
 \vspace{-10pt}
 \begin{table}
+{\tiny
 \caption{Single lepton blinded fitting results}
 \vspace{0pt} 
 \begin{tabular}{| c | c | c | c |}
 \hline
 Channel	&Expected limit	&Expected xsec	&Expected \\
- & $\times \sigma_{t\bar{t}t\bar{t}}^{SM}$ &  $\times fb$ &significance \\
+ & $\times \sigma_{t\bar{t}t\bar{t}}^{SM}$ &  $fb$ &significance \\
 \hline
-$e$			& & &  \\
+$e$			& $23.5^{+7.0}_{-6.5}$ & $216.2^{+64}_{-60}$ &  0.09\\
 \hline
-$\mu$		& & &  \\
+$\mu$		& $16.0^{+7.0}_{-4.7}$ & $147.2^{+64}_{-43}$ &  0.12 \\
 \hline
-combined	& & &  \\
+combined	& $9.4^{+4.0}_{-2.7}$ & $86.5^{+37}_{-25}$ & 0.25 \\
 \hline
 \end{tabular} 
+}
 \end{table}
 
 \underline{Postfit BDT distributions} \vspace{-10pt}
 \begin{columns}
-	\column{0.3\textwidth}
+	\column{0.5\textwidth}
 	\begin{figure}
-		\includegraphics[width=0.8\linewidth]{placeholder.png}
-		\caption{$\mu$ channel}
+		\includegraphics[width=\linewidth]{large_stat/mu/hist_muall_origbin_pub_lin}
 	\end{figure}
-	\column{0.3\textwidth}
+	\column{0.5\textwidth}
 	\begin{figure}
-		\includegraphics[width=0.8\linewidth]{placeholder.png}
-		\caption{$e$ channel}
+		\includegraphics[width=\linewidth]{large_stat/el/hist_elall_origbin_pub_lin}
 	\end{figure}
-	\column{0.4\textwidth} 
-	\begin{itemize}
-	\item some comments
-	\item 
-	\end{itemize}
 \end{columns}
+	\begin{itemize}
+	\item Equiprobable binning scheme
+	\item Blind signal rich 10+/3+ category
+	\item Reasonable description of the data in CRs
+	\end{itemize}
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}
 \frametitle{Fit Diagnostic in Single Lepton Channel}
+\begin{columns}
+\column{0.5\linewidth}
 \begin{figure}
-\includegraphics[width=0.5\textwidth]{placeholder.png}
+\includegraphics[width=\textwidth]{large_stat/mu/pulls}\caption{$\mu$+jets channel}
 \end{figure}
+\column{0.5\linewidth}
+\begin{figure}
+\includegraphics[width=\textwidth]{large_stat/el/pulls}\caption{$e$+jets channel}
+\end{figure}
+\end{columns}
 	\begin{itemize}
-	\item some comments
-	\item
+	\item Post-fit uncertainty reduction is under investigation
 	\end{itemize}
 \end{frame}
 
@@ -378,12 +384,18 @@ combined	& & &  \\
 \begin{frame}
 \frametitle{Impact of Nuisance Parameters}
 \begin{figure}
-\includegraphics[width=0.5\textwidth]{placeholder.png}
-	\begin{itemize}
-	\item some comments
-	\item
-	\end{itemize}
+\includegraphics[width=0.5\textwidth]{large_stat/combo/pg_0001}
+\includegraphics[width=0.5\textwidth]{large_stat/combo/pg_0002}
 \end{figure}
+\begin{itemize}
+	\item Dominant sources of systematic uncertainty:
+	\begin{itemize}
+	\item UE variation. Affects jet multiplicity spectrum\\(Sample has low statistics)
+	\item $t\bar{t}b\bar{b}$ normalization
+	\item Normalization of $t\bar{t}Z,H \rightarrow b\bar{b}$
+	\item Reweighting of HF component in CSV discriminant 
+	\end{itemize}
+\end{itemize}
 \end{frame}
 
 %------------------------------------------------
@@ -396,7 +408,7 @@ combined	& & &  \\
 \vspace{0pt} 
 \begin{tabular}{| c | c | c | c |}
 \hline
-Channel	&Expected limit	&Expected xsec	&Expected \\
+Channel	&Expected limit	&Expected limit	&Expected \\
  & $\times \sigma_{t\bar{t}t\bar{t}}^{SM}$ &  $\times fb$ &significance \\
 \hline
 $\mu \mu$	&$14.56_{-5.24}^{+9.64}$ &$134_{-48}^{+89}$ &0.19  \\
@@ -510,18 +522,20 @@ combined		&$6.88_{-2.42}^{+4.44}$ &$63_{-22}^{+41}$ &0.52  \\
 \vspace{0pt} 
 \begin{tabular}{| c | c | c | c |}
 \hline
-Channel	&Expected limit	&Expected xsec	&Expected \\
+Channel	&Expected limit	&Expected limit	&Expected \\
  & $\times \sigma_{t\bar{t}t\bar{t}}^{SM}$ &  $\times fb$ &significance \\
 \hline
-l+jets	& & &  \\
+l+jets	& $9.4^{+4.0}_{-2.7}$ & $86.5^{+37}_{-25}$ & 0.25 \\
 \hline
-OS ll+jets		& & &  \\
+OS ll+jets		&$6.9_{-2.4}^{+4.4}$ &$63_{-22}^{+41}$ & 0.52  \\
 \hline
-combined		& & &  \\
+combined &$5.2_{-1.7}^{+2.6}$ &$48_{-16}^{+24}$ & 0.58 \\
 \hline
 \end{tabular} 
 \end{table}
-
+\begin{itemize}
+\item Signal sensitivity is driven by the OS $ll+$jets channel
+\end{itemize}
 \end{frame}
 
 %------------------------------------------------

@@ -1,0 +1,37 @@
+InfoBegin
+InfoKey: CreationDate
+InfoValue: D:20180322162808
+InfoBegin
+InfoKey: Keywords
+InfoValue: ROOT
+InfoBegin
+InfoKey: Title
+InfoValue: ./idatacard_elmu.pdf
+InfoBegin
+InfoKey: Creator
+InfoValue: ROOT Version 6.06/01
+NumberOfPages: 2
+BookmarkBegin
+BookmarkTitle: Contents
+BookmarkLevel: 1
+BookmarkPageNumber: 1
+BookmarkBegin
+BookmarkTitle: Page 1
+BookmarkLevel: 2
+BookmarkPageNumber: 1
+BookmarkBegin
+BookmarkTitle: Page 2
+BookmarkLevel: 2
+BookmarkPageNumber: 2
+PageMediaBegin
+PageMediaNumber: 1
+PageMediaRotation: 90
+PageMediaRect: 0 0 595 842
+PageMediaDimensions: 595 842
+PageMediaCropRect: 20 255 486 822
+PageMediaBegin
+PageMediaNumber: 2
+PageMediaRotation: 90
+PageMediaRect: 0 0 595 842
+PageMediaDimensions: 595 842
+PageMediaCropRect: 20 255 486 822
