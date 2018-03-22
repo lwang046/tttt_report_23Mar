@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.15)  22 MAR 2018 21:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.15)  22 MAR 2018 21:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1090,23 +1090,29 @@ Overfull \hbox (4.98619pt too wide) in paragraph at lines 304--304
  <./multitopness.png> <./leptonpt.png> <./5thjetpt.png> <./HTB.png> <./njets_di
 .pdf> <./topness_di.pdf> <./nLtags_di.pdf> <./l1pt_di.pdf>] [8
 
-] [9
-
 ]
-<large_stat/mu/hist_muall_origbin_pub_lin.pdf, id=128, 569.12625pt x 412.54124p
+<bdt8j3b.pdf, id=123, 569.12625pt x 384.43625pt>
+File: bdt8j3b.pdf Graphic file (type pdf)
+ <use bdt8j3b.pdf>
+Package pdftex.def Info: bdt8j3b.pdf used on input line 366.
+(pdftex.def)             Requested size: 160.75812pt x 108.5917pt.
+ [9
+
+ <./bdt8j3b.pdf, page is rotated 90 degrees>]
+<large_stat/mu/hist_muall_origbin_pub_lin.pdf, id=172, 569.12625pt x 412.54124p
 t>
 File: large_stat/mu/hist_muall_origbin_pub_lin.pdf Graphic file (type pdf)
  <use large_stat/mu/hist_muall_origbin_pub_lin.pdf>
 Package pdftex.def Info: large_stat/mu/hist_muall_origbin_pub_lin.pdf used on i
-nput line 377.
+nput line 388.
 (pdftex.def)             Requested size: 160.75812pt x 116.53052pt.
 
-<large_stat/el/hist_elall_origbin_pub_lin.pdf, id=129, 569.12625pt x 412.54124p
+<large_stat/el/hist_elall_origbin_pub_lin.pdf, id=173, 569.12625pt x 412.54124p
 t>
 File: large_stat/el/hist_elall_origbin_pub_lin.pdf Graphic file (type pdf)
  <use large_stat/el/hist_elall_origbin_pub_lin.pdf>
 Package pdftex.def Info: large_stat/el/hist_elall_origbin_pub_lin.pdf used on i
-nput line 377.
+nput line 388.
 (pdftex.def)             Requested size: 160.75812pt x 116.53052pt.
  [10
 
@@ -1115,99 +1121,99 @@ nput line 377.
 1
 
 ]
-<large_stat/mu/pulls.pdf, id=227, 569.12625pt x 363.3575pt>
+<large_stat/mu/pulls.pdf, id=271, 569.12625pt x 363.3575pt>
 File: large_stat/mu/pulls.pdf Graphic file (type pdf)
 
 <use large_stat/mu/pulls.pdf>
-Package pdftex.def Info: large_stat/mu/pulls.pdf used on input line 422.
+Package pdftex.def Info: large_stat/mu/pulls.pdf used on input line 433.
 (pdftex.def)             Requested size: 160.75812pt x 102.63759pt.
 
-<large_stat/el/pulls.pdf, id=228, 569.12625pt x 363.3575pt>
+<large_stat/el/pulls.pdf, id=272, 569.12625pt x 363.3575pt>
 File: large_stat/el/pulls.pdf Graphic file (type pdf)
 
 <use large_stat/el/pulls.pdf>
-Package pdftex.def Info: large_stat/el/pulls.pdf used on input line 422.
+Package pdftex.def Info: large_stat/el/pulls.pdf used on input line 433.
 (pdftex.def)             Requested size: 160.75812pt x 102.63759pt.
  [12
 
  <./large_stat/mu/pulls.pdf, page is rotated 90 degrees> <./large_stat/el/pulls
 .pdf, page is rotated 90 degrees>]
-<large_stat/combo/pg_0001.pdf, id=320, 569.12625pt x 467.7475pt>
+<large_stat/combo/pg_0001.pdf, id=364, 569.12625pt x 467.7475pt>
 File: large_stat/combo/pg_0001.pdf Graphic file (type pdf)
 
 <use large_stat/combo/pg_0001.pdf>
-Package pdftex.def Info: large_stat/combo/pg_0001.pdf used on input line 441.
+Package pdftex.def Info: large_stat/combo/pg_0001.pdf used on input line 452.
 (pdftex.def)             Requested size: 160.75812pt x 132.12463pt.
 
-<large_stat/combo/pg_0002.pdf, id=321, 569.12625pt x 467.7475pt>
+<large_stat/combo/pg_0002.pdf, id=365, 569.12625pt x 467.7475pt>
 File: large_stat/combo/pg_0002.pdf Graphic file (type pdf)
 
 <use large_stat/combo/pg_0002.pdf>
-Package pdftex.def Info: large_stat/combo/pg_0002.pdf used on input line 441.
+Package pdftex.def Info: large_stat/combo/pg_0002.pdf used on input line 452.
 (pdftex.def)             Requested size: 160.75812pt x 132.12463pt.
  [13
 
  <./large_stat/combo/pg_0001.pdf, page is rotated 90 degrees> <./large_stat/com
-bo/pg_0002.pdf, page is rotated 90 degrees>] <hist_mumu_log.png, id=414, 999.73
+bo/pg_0002.pdf, page is rotated 90 degrees>] <hist_mumu_log.png, id=459, 999.73
 5pt x 724.7075pt>
 File: hist_mumu_log.png Graphic file (type png)
 
 <use hist_mumu_log.png>
-Package pdftex.def Info: hist_mumu_log.png used on input line 473.
+Package pdftex.def Info: hist_mumu_log.png used on input line 484.
 (pdftex.def)             Requested size: 128.60698pt x 93.22005pt.
- <hist_muel_log.png, id=415, 999.735pt x 724.7075pt>
+ <hist_muel_log.png, id=460, 999.735pt x 724.7075pt>
 File: hist_muel_log.png Graphic file (type png)
 
 <use hist_muel_log.png>
-Package pdftex.def Info: hist_muel_log.png used on input line 473.
+Package pdftex.def Info: hist_muel_log.png used on input line 484.
 (pdftex.def)             Requested size: 128.60698pt x 93.22005pt.
- <hist_elel_log.png, id=416, 999.735pt x 724.7075pt>
+ <hist_elel_log.png, id=461, 999.735pt x 724.7075pt>
 File: hist_elel_log.png Graphic file (type png)
 
 <use hist_elel_log.png>
-Package pdftex.def Info: hist_elel_log.png used on input line 473.
+Package pdftex.def Info: hist_elel_log.png used on input line 484.
 (pdftex.def)             Requested size: 128.60698pt x 93.22005pt.
  [14
 
  <./hist_mumu_log.png> <./hist_muel_log.png> <./hist_elel_log.png>] [15
 
-] <mumuNP.png, id=428, 901.3675pt x 577.15625pt>
+] <mumuNP.png, id=472, 901.3675pt x 577.15625pt>
 File: mumuNP.png Graphic file (type png)
 
 <use mumuNP.png>
-Package pdftex.def Info: mumuNP.png used on input line 524.
+Package pdftex.def Info: mumuNP.png used on input line 535.
 (pdftex.def)             Requested size: 135.19928pt x 86.56969pt.
- <muelNP.png, id=429, 901.3675pt x 577.15625pt>
+ <muelNP.png, id=473, 901.3675pt x 577.15625pt>
 File: muelNP.png Graphic file (type png)
 
 <use muelNP.png>
-Package pdftex.def Info: muelNP.png used on input line 524.
+Package pdftex.def Info: muelNP.png used on input line 535.
 (pdftex.def)             Requested size: 135.19928pt x 86.56969pt.
  [16
 
  <./mumuNP.png> <./muelNP.png>]
-<elelNP.png, id=435, 901.3675pt x 577.15625pt>
+<elelNP.png, id=479, 901.3675pt x 577.15625pt>
 File: elelNP.png Graphic file (type png)
  <use elelNP.png>
-Package pdftex.def Info: elelNP.png used on input line 551.
+Package pdftex.def Info: elelNP.png used on input line 562.
 (pdftex.def)             Requested size: 135.19928pt x 86.56969pt.
 
-<combNP.png, id=436, 901.3675pt x 577.15625pt>
+<combNP.png, id=480, 901.3675pt x 577.15625pt>
 File: combNP.png Graphic file (type png)
  <use combNP.png>
-Package pdftex.def Info: combNP.png used on input line 551.
+Package pdftex.def Info: combNP.png used on input line 562.
 (pdftex.def)             Requested size: 135.19928pt x 86.56969pt.
  [17
 
- <./elelNP.png> <./combNP.png>] <impacts1.pdf, id=442, 569.12625pt x 467.7475pt
+ <./elelNP.png> <./combNP.png>] <impacts1.pdf, id=486, 569.12625pt x 467.7475pt
 >
 File: impacts1.pdf Graphic file (type pdf)
 
 <use impacts1.pdf>
-Package pdftex.def Info: impacts1.pdf used on input line 562.
+Package pdftex.def Info: impacts1.pdf used on input line 573.
 (pdftex.def)             Requested size: 257.21397pt x 211.40512pt.
 
-Overfull \vbox (0.67645pt too high) detected at line 562
+Overfull \vbox (0.67645pt too high) detected at line 573
  []
 
 [18
@@ -1223,7 +1229,7 @@ Overfull \vbox (0.67645pt too high) detected at line 562
 ] [23
 
 ]
-Overfull \vbox (2.87137pt too high) detected at line 710
+Overfull \vbox (2.87137pt too high) detected at line 721
  []
 
 [24
@@ -1231,12 +1237,12 @@ Overfull \vbox (2.87137pt too high) detected at line 710
 ] [25
 
 ]
-Overfull \hbox (21.77536pt too wide) in paragraph at lines 753--753
+Overfull \hbox (21.77536pt too wide) in paragraph at lines 764--764
  [] 
  []
 
 
-Overfull \vbox (9.3379pt too high) detected at line 753
+Overfull \vbox (9.3379pt too high) detected at line 764
  []
 
 [26
@@ -1249,51 +1255,51 @@ Overfull \vbox (9.3379pt too high) detected at line 753
 
 ] [30
 
-] <impacts2.pdf, id=560, 569.12625pt x 467.7475pt>
+] <impacts2.pdf, id=605, 569.12625pt x 467.7475pt>
 File: impacts2.pdf Graphic file (type pdf)
 
 <use impacts2.pdf>
-Package pdftex.def Info: impacts2.pdf used on input line 846.
+Package pdftex.def Info: impacts2.pdf used on input line 857.
 (pdftex.def)             Requested size: 144.68132pt x 118.90645pt.
- <impacts3.pdf, id=561, 569.12625pt x 467.7475pt>
+ <impacts3.pdf, id=606, 569.12625pt x 467.7475pt>
 File: impacts3.pdf Graphic file (type pdf)
 
 <use impacts3.pdf>
-Package pdftex.def Info: impacts3.pdf used on input line 846.
+Package pdftex.def Info: impacts3.pdf used on input line 857.
 (pdftex.def)             Requested size: 144.68132pt x 118.90645pt.
- <impacts4.pdf, id=562, 569.12625pt x 467.7475pt>
+ <impacts4.pdf, id=607, 569.12625pt x 467.7475pt>
 File: impacts4.pdf Graphic file (type pdf)
 
 <use impacts4.pdf>
-Package pdftex.def Info: impacts4.pdf used on input line 846.
+Package pdftex.def Info: impacts4.pdf used on input line 857.
 (pdftex.def)             Requested size: 144.68132pt x 118.90645pt.
 
-Overfull \vbox (6.53978pt too high) detected at line 846
+Overfull \vbox (6.53978pt too high) detected at line 857
  []
 
 [31
 
  <./impacts2.pdf, page is rotated 90 degrees> <./impacts3.pdf, page is rotated 
 90 degrees> <./impacts4.pdf, page is rotated 90 degrees>]
-<impacts5.pdf, id=667, 569.12625pt x 467.7475pt>
+<impacts5.pdf, id=711, 569.12625pt x 467.7475pt>
 File: impacts5.pdf Graphic file (type pdf)
  <use impacts5.pdf>
-Package pdftex.def Info: impacts5.pdf used on input line 867.
+Package pdftex.def Info: impacts5.pdf used on input line 878.
 (pdftex.def)             Requested size: 144.68132pt x 118.90645pt.
 
-<impacts6.pdf, id=668, 569.12625pt x 467.7475pt>
+<impacts6.pdf, id=712, 569.12625pt x 467.7475pt>
 File: impacts6.pdf Graphic file (type pdf)
  <use impacts6.pdf>
-Package pdftex.def Info: impacts6.pdf used on input line 867.
+Package pdftex.def Info: impacts6.pdf used on input line 878.
 (pdftex.def)             Requested size: 144.68132pt x 118.90645pt.
 
-<impacts7.pdf, id=669, 569.12625pt x 467.7475pt>
+<impacts7.pdf, id=713, 569.12625pt x 467.7475pt>
 File: impacts7.pdf Graphic file (type pdf)
  <use impacts7.pdf>
-Package pdftex.def Info: impacts7.pdf used on input line 867.
+Package pdftex.def Info: impacts7.pdf used on input line 878.
 (pdftex.def)             Requested size: 144.68132pt x 118.90645pt.
 
-Overfull \vbox (6.53978pt too high) detected at line 867
+Overfull \vbox (6.53978pt too high) detected at line 878
  []
 
 [32
@@ -1309,11 +1315,11 @@ Overfull \vbox (6.53978pt too high) detected at line 867
 \tf@snm=\write8
 \openout8 = `fourtop.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 876.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 876.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 887.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 887.
  (./fourtop.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 876.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 876.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 887.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 887.
 Package rerunfilecheck Info: File `fourtop.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1321,13 +1327,13 @@ Package rerunfilecheck Info: File `fourtop.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 876.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 887.
  ) 
 Here is how much of TeX's memory you used:
- 17568 strings out of 493014
- 333367 string characters out of 6133351
+ 17573 strings out of 493014
+ 333441 string characters out of 6133351
  409053 words of memory out of 5000000
- 20576 multiletter control sequences out of 15000+600000
+ 20580 multiletter control sequences out of 15000+600000
  19992 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,21n,55p,387b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1357,10 +1363,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on fourtop.pdf (32 pages, 1418291 bytes).
+Output written on fourtop.pdf (32 pages, 1433853 bytes).
 PDF statistics:
- 874 PDF objects out of 1000 (max. 8388607)
- 571 compressed objects within 6 object streams
+ 918 PDF objects out of 1000 (max. 8388607)
+ 589 compressed objects within 6 object streams
  76 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
