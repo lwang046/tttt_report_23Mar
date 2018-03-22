@@ -81,18 +81,28 @@
 \usepackage{commath}
 \usepackage{cancel}
 %\usepackage{xcolor,multirow}
-%\usepackage{verbatim}
+\usepackage{verbatim}
 \usepackage{default}
 \usepackage{array}
 \usepackage{makecell}
 \usepackage{color, colortbl}
+\beamertemplatenavigationsymbolsempty
 \setbeamertemplate{footline}[frame number]
+
+\renewcommand{\tt}{$ t\overline{t}\ $}
+\newcommand{\ttz}{$ t\overline{t}Z\ $}
+\newcommand{\tth}{$ t\overline{t}H\ $}
+
+%\definecolor{maroon}{cmyk}{0,0.87,0.68,0.32}
+
+\setbeamersize{text margin left=5mm}
+
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[FourTop Updates]{Update on $t\bar{t}t\bar{t}$ Searches in Single Lepton/OS Dilepton Channel Using 2016 Data} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[FourTop Updates]{Update on $t\bar{t}t\bar{t}$ Searches in Single Lepton/OS Dilepton Channels Using 2016 Data} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{
 Denys Lontkovskyi \inst{1}  \and
@@ -113,11 +123,37 @@ Steve Wimpenny \inst{2}
 \titlepage % Print the title page as the first slide
 \end{frame}
 
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Overview}
+\begin{enumerate}
+	\vspace{-30pt}
+	\item Current stage
+	\vspace{+15pt}
+	\item Analysis setup
+	\vspace{+15pt}
+	\item $t\bar{t}t\bar{t}$ Search Method
+	\vspace{+15pt}
+	\item Re-blinded fit result
+	\vspace{+15pt}
+	\item Conclusion
+\end{enumerate}
+\end{frame}
+
+%------------------------------------------------
+
 \begin{frame}
 \frametitle{Current Status} % Table of contents slide, comment this block out to remove it
-\begin{itemize}
-	\item Aiming at re-preapproval, documentation -
-	\item We have requested for the production of two new $t\bar{t}$ samples with 9M events each for the two channels(semi-lep and OS dilep), with dedicated cuts at generator level to increase MC stats by a factor of $\backsim 10$ in high multiplicity/discriminant tails. Details on slide~\ref{newsample}
+\begin{itemize} \vspace{-20pt}
+	\item Aiming at re-preapproval, we are finalizing our documentation
+	\begin{itemize}
+		\item Single-lepton: AN-17/146
+		\item Di-lepon: AN-17/143
+	\end{itemize}
+	\vspace{10pt}
+	\item We have requested for the production of two new $t\bar{t}$ samples with 9M events each for the two channels(semi-lep and OS dilep), with dedicated cuts at generator level to increase MC stats by a factor of $\backsim 10$ in high multiplicity/discriminant tails. Details on slide~\ref{newsample} to \ref{newsample2}
+	\vspace{10pt}
 	\item We are studying the effects of possible background from QCD multi jets with mis-identified leptons.
 \end{itemize}
 
@@ -132,10 +168,10 @@ Steve Wimpenny \inst{2}
 	\underline{\small {Data and MC}}
 	\begin{itemize}
 		\item {\small Run2016 B-H, $35.9 pb^{-1}$}
-		\item {\small Summer 16 MiniAOD MC for Morond 17 [Ref. slide~\ref{mcsample}}]
+		\item {\small Summer 16 MiniAOD MC for Morond 17}
 		\begin{itemize}
 			\item signal sample: $t\bar{t}t\bar{t}$ amc@NLO
-			\item background samples: $t\bar{t}$(+backup, mass, width), single $t(\bar{t})$, DY, W+jets, $t\bar{t}+Z/H/W/diboson$
+			\item background samples: $t\bar{t}$(+backup, mass, width, details on slide~\ref{mcsample}), single $t(\bar{t})$, DY, W+jets, $t\bar{t}+Z/H/W/diboson$
 		\end{itemize}
 	\end{itemize}
 	\underline{{\small Objects}}
@@ -322,26 +358,6 @@ Steve Wimpenny \inst{2}
 
 \begin{frame}
 \frametitle{Template Fit in Single Lepton Channel}
-\vspace{-10pt}
-\begin{table}
-{\tiny
-\caption{Single lepton blinded fitting results}
-\vspace{0pt} 
-\begin{tabular}{| c | c | c | c |}
-\hline
-Channel	&Expected limit	&Expected xsec	&Expected \\
- & $\times \sigma_{t\bar{t}t\bar{t}}^{SM}$ &  $fb$ &significance \\
-\hline
-$e$			& $23.5^{+7.0}_{-6.5}$ & $216.2^{+64}_{-60}$ &  0.09\\
-\hline
-$\mu$		& $16.0^{+7.0}_{-4.7}$ & $147.2^{+64}_{-43}$ &  0.12 \\
-\hline
-combined	& $9.4^{+4.0}_{-2.7}$ & $86.5^{+37}_{-25}$ & 0.25 \\
-\hline
-\end{tabular} 
-}
-\end{table}
-
 \underline{Postfit BDT distributions} \vspace{-10pt}
 \begin{columns}
 	\column{0.5\textwidth}
@@ -358,6 +374,32 @@ combined	& $9.4^{+4.0}_{-2.7}$ & $86.5^{+37}_{-25}$ & 0.25 \\
 	\item Blind signal rich 10+/3+ category
 	\item Reasonable description of the data in CRs
 	\end{itemize}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Template Fit in Single Lepton Channel}
+\vspace{-10pt}
+\begin{table}
+\caption{Single lepton blinded fitting results}
+\vspace{0pt} 
+\begin{tabular}{| c | c | c | c |}
+\hline
+Channel	&Expected limit	&Expected xsec	&Expected \\
+ & $\times \sigma_{t\bar{t}t\bar{t}}^{SM}$ &  $fb$ &significance \\
+\hline
+$e$			& $23.5^{+7.0}_{-6.5}$ & $216.2^{+64}_{-60}$ &  0.09\\
+\hline
+$\mu$		& $16.0^{+7.0}_{-4.7}$ & $147.2^{+64}_{-43}$ &  0.12 \\
+\hline
+combined	& $9.4^{+4.0}_{-2.7}$ & $86.5^{+37}_{-25}$ & 0.25 \\
+\hline
+\end{tabular} 
+\end{table}
+%\begin{itemize}
+%	\item 
+%\end{itemize}
 \end{frame}
 
 %------------------------------------------------
@@ -441,7 +483,7 @@ combined	& $9.4^{+4.0}_{-2.7}$ & $86.5^{+37}_{-25}$ & 0.25 \\
 \begin{tabular}{| c | c | c | c |}
 \hline
 Channel	&Expected limit	&Expected xsec	&Expected \\
- & $\times \sigma_{t\bar{t}t\bar{t}}^{SM}$ &  $\times fb$ &significance \\
+ & $\times \sigma_{t\bar{t}t\bar{t}}^{SM}$ & $fb$ &significance \\
 \hline
 $\mu \mu$	&$14.56_{-5.24}^{+9.64}$ &$134_{-48}^{+89}$ &0.19  \\
 \hline
@@ -513,18 +555,28 @@ combined		&$6.88_{-2.42}^{+4.44}$ &$63_{-22}^{+41}$ &0.52  \\
 \begin{frame}
 \frametitle{Nuisance Parameters impact in OS dilep combined fit}
 \vspace{-5pt}
-\begin{itemize}
-	\item {\small Signal systematics have the largest impacts, as we are very close to the expected signal strength.}
-	\item {\small TTRare resembles our signal, but under control}
-	\item {\small Jet energy scale uncertainties and MC stats in signal enriched bins dominate.}
-	\item {\small All nuisance parameters behave reasonably.}
-	\item {\small Full list of nuisance impacts are on backup slides~\ref{impacts1} to ~\ref{impacts2}}
-\end{itemize}
-\vspace{-5pt}
 \begin{figure}
-	\includegraphics[width=0.5\textwidth]{impacts1.pdf}
+	\includegraphics[width=0.8\textwidth]{impacts1.pdf}
 	\vspace{-10pt} \caption{Impact of nuisance parameters on the parameter of interest}
 \end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Nuisance Parameters impact in OS dilep combined fit}
+
+\begin{itemize}
+	\item Signal systematics have the largest impacts, as we are very close to the expected signal strength.
+	\vspace{5pt}
+	\item TTRare resembles our signal, but under control.
+	\vspace{5pt}
+	\item Jet energy scale uncertainties and MC stats in signal enriched bins dominate.
+	\vspace{5pt}
+	\item All nuisance parameters behave reasonably.
+	\vspace{5pt}
+	\item Full list of nuisance impacts are on backup slides~\ref{impacts1} to ~\ref{impacts2}
+\end{itemize}
 \end{frame}
 
 %------------------------------------------------
@@ -538,7 +590,7 @@ combined		&$6.88_{-2.42}^{+4.44}$ &$63_{-22}^{+41}$ &0.52  \\
 \begin{tabular}{| c | c | c | c |}
 \hline
 Channel	&Expected limit	&Expected limit	&Expected \\
- & $\times \sigma_{t\bar{t}t\bar{t}}^{SM}$ &  $\times fb$ &significance \\
+ & $\times \sigma_{t\bar{t}t\bar{t}}^{SM}$ &  $fb$ &significance \\
 \hline
 l+jets	& $9.4^{+4.0}_{-2.7}$ & $86.5^{+37}_{-25}$ & 0.25 \\
 \hline
@@ -556,11 +608,11 @@ combined &$5.2_{-1.7}^{+2.6}$ &$48_{-16}^{+24}$ & 0.58 \\
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Conslusion}
+\frametitle{Conclusion}
 \underline{Current status:}
 \begin{itemize}
-\item Analysis blinded in order to optimize search regions/binning taking into account limited MC statistics
-\item Expecting $\times 10$ more $t\bar{t}$ background MC with dedicated filters in signal rich search regions that have large statistical uncertainty
+\item Analysis re-blinded in order to optimize search regions/binning taking into account limited MC statistics
+\item Expect $\times 10$ more $t\bar{t}$ simulated events using dedicated filters in signal rich search regions that have large statistical uncertainty
 \begin{itemize}
 \item New high jet multiplicity, high-$H_T$ filter was optimized for the analysis
 \item MC requests are added to the system
@@ -568,8 +620,8 @@ combined &$5.2_{-1.7}^{+2.6}$ &$48_{-16}^{+24}$ & 0.58 \\
 \end{itemize}
 \underline{Plans for coming weeks:}
 \begin{itemize}
-\item Finalize QCD background estimation
 \item Include new MC samples when they are ready
+\item Finalize QCD background estimation
 \item Update ANs and paper draft 
 \end{itemize}
 %\begin{figure}
@@ -590,8 +642,117 @@ combined &$5.2_{-1.7}^{+2.6}$ &$48_{-16}^{+24}$ & 0.58 \\
 
 %------------------------------------------------
 
+\begin{frame}[label=mcsample]
+\frametitle{MC samples}
+
+\begin{table}[hbt]
+\caption{Simulated event samples, cross sections and event yields used in this analysis}
+\label{tab:mc1}
+\medskip
+\resizebox{\textwidth}{!}{
+ \begin{tabular}
+    {l|r|r}
+%    \hline\line 
+\vspace{-30pt} \\
+    Sample & $\sigma$ (pb) & No of events \\
+    \hline
+    {/TT\_TuneCUETP8M2T4\_13TeV-powheg-pythia8(\& backup)                                  } &  831.8 & 154652276 \\
+    \hline
+    {/TT\_TuneCUETP8M2T4\_mtop1665\_13TeV-powheg-pythia8                                  } &  831.8 & 19379727 \\
+    {/TT\_TuneCUETP8M2T4\_mtop1695\_13TeV-powheg-pythia8                                  } &  831.8 & 58540996 \\
+    {/TT\_TuneCUETP8M2T4\_mtop1715\_13TeV-powheg-pythia8                                  } &  831.8 & 19578294 \\
+    {/TT\_TuneCUETP8M2T4\_mtop1735\_13TeV-powheg-pythia8                                  } &  831.8 & 19323035 \\
+    {/TT\_TuneCUETP8M2T4\_mtop1755\_13TeV-powheg-pythia8                                  } &  831.8 & 59252096 \\
+    {/TT\_TuneCUETP8M2T4\_mtop1785\_13TeV-powheg-pythia8                                  } &  831.8 & 16376678 \\
+    \hline
+    {/TT\_widthx0p2\_TuneCUETP8M2T4\_13TeV-powheg-pythia8                                  } &  831.8 & 19937607 \\
+    {/TT\_widthx0p5\_TuneCUETP8M2T4\_13TeV-powheg-pythia8                                  } &  831.8 & 19909415 \\
+    {/TT\_widthx0p8\_TuneCUETP8M2T4\_13TeV-powheg-pythia8                                  } &  831.8 & 18546839 \\
+    {/TT\_widthx2\_TuneCUETP8M2T4\_13TeV-powheg-pythia8                                  } &  831.8 & 13505281 \\
+    {/TT\_widthx4\_TuneCUETP8M2T4\_13TeV-powheg-pythia8                                  } &  831.8 & 19593910 \\
+    {/TT\_widthx8\_TuneCUETP8M2T4\_13TeV-powheg-pythia8                                  } &  831.8 & 19524579 \\
+\hline total & & 436M
+ 
+\end{tabular}
+}
+\end{table}
+
+\end{frame}
+
+%------------------------------------------------
+
 \begin{frame}[label=newsample]
-\frametitle{Filter optimized for l+jets channel}
+\frametitle{{Current status}}
+\begin{itemize}
+\item Existing inclusive $t\bar{t}$ sample, including mass and width variations: 436M events
+\begin{itemize}
+\item Nevertheless, MC statistics is scarce
+\begin{itemize}
+\item ~200 MC events in 10j4b $l$+jets category
+\item ~140 MC events in 8j4j $l^+l^-$+jets category
+\end{itemize}
+\item Need factor of 10 increase in statistics to ensure fit stability in the sensitive high multiplicity/high discriminant region
+\item This requires the development of a gen level filter for efficient MC production
+\end{itemize}
+\end{itemize}
+\begin{itemize}
+\item Various filter configurations have been studied and we have a preferred configuration
+\end{itemize}
+\begin{itemize}
+\item MC production can be started once new release is available
+\item Backport and genfragment are available \\(Thanks Javier Fernandez!)
+\item CMSSW modification are signed by generator conveners \\(Thanks L.Perrozzi!)
+\item Currently waiting for new cmssw build containing the backport
+\begin{itemize}
+\item New patch release has to be issued by release managers
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Two scenarios for new filtered samples}
+\begin{itemize}
+\item Two independent samples with different lepton and jet multiplicity cuts:
+\begin{itemize}
+\item Optimal for the two channels
+\item Uses gen level cuts which are probably not useful for other analyses
+\end{itemize}
+\vspace{10pt}
+\item Common sample with no fully hadronic $t\bar{t}$ decays
+\begin{itemize}
+\item Potentially useful for other analyses
+\item Worse filter efficiency
+\end{itemize}
+\end{itemize}
+\vspace{25pt}
+\hrule
+\begin{itemize}
+\item Filter efficiency and acceptance loss were calculated on /MINIAODSIM level
+\item Efficiency values were verified using actual filter implementation in small private /GEN-SIM production
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Filters summary  (l+jets and OS)}
+\begin{itemize}
+\item{\footnotesize  Preferred configuration: $HT>500,\, \mathrm{nJets+nLep}\geq8,\,  \mathrm{nLep}\geq1$ (26M)}
+\end{itemize}
+\vspace{-19pt}
+\begin{center}
+{\tiny \begin{tabular}{|c|c|c|c|c|c|c|}
+            \cline{1-7}
+             & & \multicolumn{5}{|c|}{Acceptance loss in different jet multiplicity regions\footnote{Fraction of events passing offline cuts but rejected by gen filter}}\\   
+            \cline{1-7}
+\hline Filter cuts & Filter eff. $\times 10^{-2}$ & OS $N_J=7$& OS $N_J\geq8$ & SL $N_J=9$& SL $N_J>9$& Ext ($\times 10$) \\  
+\hline \thead{{\tiny HT$>$500} \\ {\tiny  nJets+nLep$\geq$6} \\ {\tiny $\geq1$ lepton}} & $2.3 \pm 0.03$  & --- & --- & --- & --- & 100 M\\
+\hline \thead{{\tiny HT$>$500} \\ {\tiny  nJets+nLep$\geq$7} \\ {\tiny $\geq1$ lepton}} & $1.4 \pm 0.02$  & 0.04 & 0.02 & --- & --- & 61 M\\
+\hline \rowcolor{lightgray} {\tiny \thead{ HT$>$500 \\ nJets+nLep$\geq$8 \\  $\geq1$ lepton}} & $0.6 \pm 0.02$  & 0.14 & 0.04 & 0.11 & 0.08 & 26 M\\
+\hline \thead{{\tiny HT$>$500} \\ {\tiny nJets+nLep$\geq$9} \\ {\tiny $\geq1$ lepton}} & $0.2 \pm 0.01$   & 0.43 & 0.14 & 0.19 & 0.1 & 9M\\
+\hline \thead{{\tiny HT$>$500} \\ {\tiny nJets+nLep$\geq$10} \\ {\tiny $\geq1$ lepton}} & $0.08 \pm 0.007$   & --- & --- & --- & 0.19 & 3.5M\\
+\hline
+\end{tabular} }
+\end{center}
+\end{frame}
+
+\begin{frame}{Filter optimized for l+jets channel}
 \begin{itemize}
 \item{\footnotesize  Preferred configuration: $HT>500,\, \mathrm{nJets+nLep}\geq9,\, \mathrm{nLep}=1$ (9M)}
 \end{itemize}
@@ -600,19 +761,17 @@ combined &$5.2_{-1.7}^{+2.6}$ &$48_{-16}^{+24}$ & 0.58 \\
             \cline{1-5}
              & & \multicolumn{3}{|c|}{Acceptance loss in different jet multiplicity regions\footnote{Fraction of events passing offline cuts but rejected by gen filter}}\\
             \cline{1-5}
-\hline Filter cuts & Filter eff. & SL ($N_J^{rec}=9$)& SL ($N_J^{rec}>9$)&  Ext ($\times 10$) \\  
-\hline \thead{HT$>$500 \\  nJets+nLep $\geq$8 \\  $1$ lepton} & $0.005 \pm 0.0002$  & 0.11 & 0.08 & 21.8 M\\ 
+\hline Filter cuts & Filter eff. & SL ($N_J^{rec}=9$)& SL ($N_J^{rec}>9$)&  Ext ($\times 10$) \\
+\hline \thead{HT$>$500 \\  nJets+nLep $\geq$8 \\  $1$ lepton} & $0.005 \pm 0.0002$  & 0.11 & 0.08 & 21.8 M\\
 \hline \rowcolor{lightgray}\thead{HT $>$ 500 \\  nJets+nLep $\geq\phantom{M}$9 \\  $1$ lepton} & $0.002 \pm 0.0001$  & 0.19 & 0.10 & 8.7M\\
 \hline \thead{HT$>$500 \\  nJets+nLep$>$=10 \\  $1$ lepton} & $0.0007 \pm 6.5\times 10^{-5}$  & --- & 0.19 & 3M\\
-\hline 
+\hline
 \end{tabular} }
 \end{center}
+
 \end{frame}
 
-%------------------------------------------------
-
-\begin{frame}
-\frametitle{Filter optimized for OS dilpeton channel}
+\begin{frame}{Filter optimized for OS dilpeton channel}
 \begin{itemize}
 \item{\footnotesize  Preferred configuration: $HT>500,\, \mathrm{nJets+nLep}\geq7,\,  \mathrm{nLep}=2$ (9M)}
 \end{itemize}
@@ -629,6 +788,39 @@ combined &$5.2_{-1.7}^{+2.6}$ &$48_{-16}^{+24}$ & 0.58 \\
 \hline
 \end{tabular} }
 \end{center}
+
+\end{frame}
+
+\begin{frame}{Summary}
+\begin{itemize}
+\item \underline{There are two options to get 10$\times$ MC stat extension:}
+\begin{itemize}
+\item (Preferred) Two samples with different gen level cuts\\ (Total of 18M events passing the filters):
+\begin{itemize}
+\item OS \textbf{9M events}: $HT>500, nJets+nLep\geq7, nLep=2$
+\item SL \textbf{9M events}: $HT>500, nJets+nLep\geq9, nLep=1$
+\end{itemize}
+\item Combined sample\\ (Total of 26M events passing the combined filter):
+\begin{itemize}
+\item SL+OS: $HT>500, nJets+nLep\geq8, nLep\geq1$
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label=newsample2]
+\frametitle{Definitions}
+
+\begin{itemize}
+\item Variable definitions:
+\begin{itemize}
+\item $HT=\sum\limits_{j:p_T>30,|\eta|<2.4} {p_T(j)}$
+\item nJets= number of gen jets with $p_T>30$\\
+No $\eta(j)$ cut due to different CMSSW filter logic.
+\item Jets in HT and multiplicity definition may include jets from isolated leptons
+\end{itemize}
+\item Lepton cuts are applied using LHE filter, similar to NoFullyHadronicDecays filter applied to single-top MC samples
+\end{itemize}
 
 \end{frame}
 
@@ -676,14 +868,7 @@ combined &$5.2_{-1.7}^{+2.6}$ &$48_{-16}^{+24}$ & 0.58 \\
 
 %------------------------------------------------
 
-\begin{frame}[label=mcsample]
-\frametitle{MC samples}
-%\begin{figure}
-%\includegraphics[width=0.8\linewidth]{test}
-%\end{figure}
-\end{frame}
 
-%------------------------------------------------
 
 
 %----------------------------------------------------------------------------------------
