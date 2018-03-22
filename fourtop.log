@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.15)  22 MAR 2018 10:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.15)  22 MAR 2018 17:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1101,152 +1101,183 @@ Overfull \hbox (8.54279pt too wide) in paragraph at lines 268--268
 ] [8
 
 ]
-<placeholder.png, id=283, 274.77657pt x 274.77657pt>
-File: placeholder.png Graphic file (type png)
- <use placeholder.png>
-Package pdftex.def Info: placeholder.png used on input line 361.
-(pdftex.def)             Requested size: 73.7506pt x 73.75041pt.
-File: placeholder.png Graphic file (type png)
+<large_stat/mu/hist_muall_origbin_pub_lin.pdf, id=283, 569.12625pt x 412.54124p
+t>
+File: large_stat/mu/hist_muall_origbin_pub_lin.pdf Graphic file (type pdf)
+ <use large_stat/mu/hist_muall_origbin_pub_lin.pdf>
+Package pdftex.def Info: large_stat/mu/hist_muall_origbin_pub_lin.pdf used on i
+nput line 361.
+(pdftex.def)             Requested size: 153.64493pt x 111.37503pt.
 
-<use placeholder.png>
-Package pdftex.def Info: placeholder.png used on input line 361.
-(pdftex.def)             Requested size: 73.7506pt x 73.75041pt.
- [9
+<large_stat/el/hist_elall_origbin_pub_lin.pdf, id=284, 569.12625pt x 412.54124p
+t>
+File: large_stat/el/hist_elall_origbin_pub_lin.pdf Graphic file (type pdf)
+ <use large_stat/el/hist_elall_origbin_pub_lin.pdf>
+Package pdftex.def Info: large_stat/el/hist_elall_origbin_pub_lin.pdf used on i
+nput line 361.
+(pdftex.def)             Requested size: 153.64493pt x 111.37503pt.
 
- <./placeholder.png>]
-File: placeholder.png Graphic file (type png)
- <use placeholder.png>
-Package pdftex.def Info: placeholder.png used on input line 374.
-(pdftex.def)             Requested size: 153.64493pt x 153.6474pt.
+Overfull \vbox (1.52289pt too high) detected at line 361
+ []
+
+[9
+
+ <./large_stat/mu/hist_muall_origbin_pub_lin.pdf, page is rotated 90 degrees> <
+./large_stat/el/hist_elall_origbin_pub_lin.pdf, page is rotated 90 degrees>]
+<large_stat/mu/pulls.pdf, id=399, 569.12625pt x 363.3575pt>
+File: large_stat/mu/pulls.pdf Graphic file (type pdf)
+
+<use large_stat/mu/pulls.pdf>
+Package pdftex.def Info: large_stat/mu/pulls.pdf used on input line 380.
+(pdftex.def)             Requested size: 153.64493pt x 98.09674pt.
+
+<large_stat/el/pulls.pdf, id=400, 569.12625pt x 363.3575pt>
+File: large_stat/el/pulls.pdf Graphic file (type pdf)
+
+<use large_stat/el/pulls.pdf>
+Package pdftex.def Info: large_stat/el/pulls.pdf used on input line 380.
+(pdftex.def)             Requested size: 153.64493pt x 98.09674pt.
  [10
 
-]
-File: placeholder.png Graphic file (type png)
+ <./large_stat/mu/pulls.pdf, page is rotated 90 degrees> <./large_stat/el/pulls
+.pdf, page is rotated 90 degrees>]
+<large_stat/combo/pg_0001.pdf, id=513, 569.12625pt x 467.7475pt>
+File: large_stat/combo/pg_0001.pdf Graphic file (type pdf)
 
-<use placeholder.png>
-Package pdftex.def Info: placeholder.png used on input line 387.
-(pdftex.def)             Requested size: 153.64493pt x 153.6474pt.
+<use large_stat/combo/pg_0001.pdf>
+Package pdftex.def Info: large_stat/combo/pg_0001.pdf used on input line 399.
+(pdftex.def)             Requested size: 153.64493pt x 126.27922pt.
+
+<large_stat/combo/pg_0002.pdf, id=514, 569.12625pt x 467.7475pt>
+File: large_stat/combo/pg_0002.pdf Graphic file (type pdf)
+
+<use large_stat/combo/pg_0002.pdf>
+Package pdftex.def Info: large_stat/combo/pg_0002.pdf used on input line 399.
+(pdftex.def)             Requested size: 153.64493pt x 126.27922pt.
  [11
 
-] <hist_mumu_log.png, id=360, 999.735pt x 724.7075pt>
+ <./large_stat/combo/pg_0001.pdf, page is rotated 90 degrees> <./large_stat/com
+bo/pg_0002.pdf, page is rotated 90 degrees>] <hist_mumu_log.png, id=627, 999.73
+5pt x 724.7075pt>
 File: hist_mumu_log.png Graphic file (type png)
 
 <use hist_mumu_log.png>
-Package pdftex.def Info: hist_mumu_log.png used on input line 430.
-(pdftex.def)             Requested size: 101.40622pt x 73.5034pt.
- <hist_muel_log.png, id=361, 999.735pt x 724.7075pt>
+Package pdftex.def Info: hist_mumu_log.png used on input line 431.
+(pdftex.def)             Requested size: 122.9164pt x 89.09537pt.
+ <hist_muel_log.png, id=628, 999.735pt x 724.7075pt>
 File: hist_muel_log.png Graphic file (type png)
 
 <use hist_muel_log.png>
-Package pdftex.def Info: hist_muel_log.png used on input line 430.
-(pdftex.def)             Requested size: 101.40622pt x 73.5034pt.
- <hist_elel_log.png, id=362, 999.735pt x 724.7075pt>
+Package pdftex.def Info: hist_muel_log.png used on input line 431.
+(pdftex.def)             Requested size: 122.9164pt x 89.09537pt.
+ <hist_elel_log.png, id=629, 999.735pt x 724.7075pt>
 File: hist_elel_log.png Graphic file (type png)
 
 <use hist_elel_log.png>
-Package pdftex.def Info: hist_elel_log.png used on input line 430.
-(pdftex.def)             Requested size: 101.40622pt x 73.5034pt.
+Package pdftex.def Info: hist_elel_log.png used on input line 431.
+(pdftex.def)             Requested size: 122.9164pt x 89.09537pt.
  [12
 
- <./hist_mumu_log.png> <./hist_muel_log.png> <./hist_elel_log.png>] <mumuNP.png
-, id=389, 901.3675pt x 577.15625pt>
+ <./hist_mumu_log.png> <./hist_muel_log.png> <./hist_elel_log.png>] [13
+
+] <mumuNP.png, id=681, 901.3675pt x 577.15625pt>
 File: mumuNP.png Graphic file (type png)
 
 <use mumuNP.png>
-Package pdftex.def Info: mumuNP.png used on input line 456.
+Package pdftex.def Info: mumuNP.png used on input line 482.
 (pdftex.def)             Requested size: 135.19928pt x 86.56969pt.
- <muelNP.png, id=390, 901.3675pt x 577.15625pt>
+ <muelNP.png, id=682, 901.3675pt x 577.15625pt>
 File: muelNP.png Graphic file (type png)
 
 <use muelNP.png>
-Package pdftex.def Info: muelNP.png used on input line 456.
-(pdftex.def)             Requested size: 135.19928pt x 86.56969pt.
- [13
-
- <./mumuNP.png> <./muelNP.png>]
-<elelNP.png, id=417, 901.3675pt x 577.15625pt>
-File: elelNP.png Graphic file (type png)
- <use elelNP.png>
-Package pdftex.def Info: elelNP.png used on input line 483.
-(pdftex.def)             Requested size: 135.19928pt x 86.56969pt.
-
-<combNP.png, id=418, 901.3675pt x 577.15625pt>
-File: combNP.png Graphic file (type png)
- <use combNP.png>
-Package pdftex.def Info: combNP.png used on input line 483.
+Package pdftex.def Info: muelNP.png used on input line 482.
 (pdftex.def)             Requested size: 135.19928pt x 86.56969pt.
  [14
 
- <./elelNP.png> <./combNP.png>] <impacts1.pdf, id=446, 569.12625pt x 467.7475pt
+ <./mumuNP.png> <./muelNP.png>]
+<elelNP.png, id=708, 901.3675pt x 577.15625pt>
+File: elelNP.png Graphic file (type png)
+ <use elelNP.png>
+Package pdftex.def Info: elelNP.png used on input line 509.
+(pdftex.def)             Requested size: 135.19928pt x 86.56969pt.
+
+<combNP.png, id=709, 901.3675pt x 577.15625pt>
+File: combNP.png Graphic file (type png)
+ <use combNP.png>
+Package pdftex.def Info: combNP.png used on input line 509.
+(pdftex.def)             Requested size: 135.19928pt x 86.56969pt.
+ [15
+
+ <./elelNP.png> <./combNP.png>] <impacts1.pdf, id=738, 569.12625pt x 467.7475pt
 >
 File: impacts1.pdf Graphic file (type pdf)
 
 <use impacts1.pdf>
-Package pdftex.def Info: impacts1.pdf used on input line 501.
+Package pdftex.def Info: impacts1.pdf used on input line 527.
 (pdftex.def)             Requested size: 153.64493pt x 126.27922pt.
 
-Overfull \vbox (17.09503pt too high) detected at line 501
+Overfull \vbox (17.09503pt too high) detected at line 527
  []
 
-[15
+[16
 
- <./impacts1.pdf, page is rotated 90 degrees>] [16
-
-] [17
+ <./impacts1.pdf, page is rotated 90 degrees>] [17
 
 ] [18
 
+] [19
+
 ]
-Overfull \hbox (0.80125pt too wide) in paragraph at lines 566--566
+Overfull \hbox (0.80125pt too wide) in paragraph at lines 609--609
  [] 
  []
 
-[19
+[20
 
-] [20
+] [21
 
-] <impacts2.pdf, id=643, 569.12625pt x 467.7475pt>
+] <impacts2.pdf, id=932, 569.12625pt x 467.7475pt>
 File: impacts2.pdf Graphic file (type pdf)
  <use impacts2.pdf>
-Package pdftex.def Info: impacts2.pdf used on input line 610.
+Package pdftex.def Info: impacts2.pdf used on input line 653.
 (pdftex.def)             Requested size: 138.2795pt x 113.6463pt.
 
-<impacts3.pdf, id=644, 569.12625pt x 467.7475pt>
+<impacts3.pdf, id=933, 569.12625pt x 467.7475pt>
 File: impacts3.pdf Graphic file (type pdf)
  <use impacts3.pdf>
-Package pdftex.def Info: impacts3.pdf used on input line 610.
+Package pdftex.def Info: impacts3.pdf used on input line 653.
 (pdftex.def)             Requested size: 138.2795pt x 113.6463pt.
 
-<impacts4.pdf, id=645, 569.12625pt x 467.7475pt>
+<impacts4.pdf, id=934, 569.12625pt x 467.7475pt>
 File: impacts4.pdf Graphic file (type pdf)
  <use impacts4.pdf>
-Package pdftex.def Info: impacts4.pdf used on input line 610.
-(pdftex.def)             Requested size: 138.2795pt x 113.6463pt.
- [21
-
- <./impacts2.pdf, page is rotated 90 degrees> <./impacts3.pdf, page is rotated 
-90 degrees> <./impacts4.pdf, page is rotated 90 degrees>]
-<impacts5.pdf, id=768, 569.12625pt x 467.7475pt>
-File: impacts5.pdf Graphic file (type pdf)
- <use impacts5.pdf>
-Package pdftex.def Info: impacts5.pdf used on input line 631.
-(pdftex.def)             Requested size: 138.2795pt x 113.6463pt.
-
-<impacts6.pdf, id=769, 569.12625pt x 467.7475pt>
-File: impacts6.pdf Graphic file (type pdf)
- <use impacts6.pdf>
-Package pdftex.def Info: impacts6.pdf used on input line 631.
-(pdftex.def)             Requested size: 138.2795pt x 113.6463pt.
-
-<impacts7.pdf, id=770, 569.12625pt x 467.7475pt>
-File: impacts7.pdf Graphic file (type pdf)
- <use impacts7.pdf>
-Package pdftex.def Info: impacts7.pdf used on input line 631.
+Package pdftex.def Info: impacts4.pdf used on input line 653.
 (pdftex.def)             Requested size: 138.2795pt x 113.6463pt.
  [22
 
+ <./impacts2.pdf, page is rotated 90 degrees> <./impacts3.pdf, page is rotated 
+90 degrees> <./impacts4.pdf, page is rotated 90 degrees>]
+<impacts5.pdf, id=1058, 569.12625pt x 467.7475pt>
+File: impacts5.pdf Graphic file (type pdf)
+ <use impacts5.pdf>
+Package pdftex.def Info: impacts5.pdf used on input line 674.
+(pdftex.def)             Requested size: 138.2795pt x 113.6463pt.
+
+<impacts6.pdf, id=1059, 569.12625pt x 467.7475pt>
+File: impacts6.pdf Graphic file (type pdf)
+ <use impacts6.pdf>
+Package pdftex.def Info: impacts6.pdf used on input line 674.
+(pdftex.def)             Requested size: 138.2795pt x 113.6463pt.
+
+<impacts7.pdf, id=1060, 569.12625pt x 467.7475pt>
+File: impacts7.pdf Graphic file (type pdf)
+ <use impacts7.pdf>
+Package pdftex.def Info: impacts7.pdf used on input line 674.
+(pdftex.def)             Requested size: 138.2795pt x 113.6463pt.
+ [23
+
  <./impacts5.pdf, page is rotated 90 degrees> <./impacts6.pdf, page is rotated 
-90 degrees> <./impacts7.pdf, page is rotated 90 degrees>] [23
+90 degrees> <./impacts7.pdf, page is rotated 90 degrees>] [24
 
 ]
 \tf@nav=\write6
@@ -1258,11 +1289,11 @@ Package pdftex.def Info: impacts7.pdf used on input line 631.
 \tf@snm=\write8
 \openout8 = `fourtop.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 647.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 647.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 690.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 690.
  (./fourtop.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 647.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 647.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 690.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 690.
 Package rerunfilecheck Info: File `fourtop.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1270,47 +1301,45 @@ Package rerunfilecheck Info: File `fourtop.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 647.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 690.
  ) 
 Here is how much of TeX's memory you used:
- 17429 strings out of 493014
- 330529 string characters out of 6133351
+ 17462 strings out of 493014
+ 331500 string characters out of 6133351
  407283 words of memory out of 5000000
- 20469 multiletter control sequences out of 15000+600000
+ 20493 multiletter control sequences out of 15000+600000
  19698 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,21n,55p,387b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on fourtop.pdf (23 pages, 1286083 bytes).
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on fourtop.pdf (24 pages, 1422954 bytes).
 PDF statistics:
- 1008 PDF objects out of 1200 (max. 8388607)
- 867 compressed objects within 9 object streams
- 53 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1302 PDF objects out of 1440 (max. 8388607)
+ 1003 compressed objects within 11 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

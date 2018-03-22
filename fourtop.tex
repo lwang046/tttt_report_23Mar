@@ -117,7 +117,7 @@ Steve Wimpenny \inst{2}
 \frametitle{Current Status} % Table of contents slide, comment this block out to remove it
 \begin{itemize}
 	\item Aiming at re-preapproval, documentation -
-	\item We have requested for the production of two new $t\bar{t}$ samples with 9M events each for the two channel(semi-lep and OS dilep), with dedicated cuts at generator level to increase MC stats by a factor of $\backsim 10$ in high multiplicity/discriminant tails. Details on slide~\ref{newsample}
+	\item We have requested for the production of two new $t\bar{t}$ samples with 9M events each for the two channels(semi-lep and OS dilep), with dedicated cuts at generator level to increase MC stats by a factor of $\backsim 10$ in high multiplicity/discriminant tails. Details on slide~\ref{newsample}
 	\item We are studying the effects of possible background from QCD multi jets with mis-identified leptons.
 \end{itemize}
 
@@ -401,6 +401,38 @@ combined	& $9.4^{+4.0}_{-2.7}$ & $86.5^{+37}_{-25}$ & 0.25 \\
 %------------------------------------------------
 
 \begin{frame}
+\frametitle{Postfit BDT distributions}
+\vspace{-10pt}
+\begin{columns}
+	\column{0.5\textwidth}
+	\begin{itemize} \vspace{-10pt}
+		\item high BDT region in signal sensitive regions is blinded
+		\vspace{5pt}
+		\item Obvious excess in the distribution tails within all three channels, partially due to lack of MC stats
+	\end{itemize}
+	\column{0.5\textwidth} 
+	\begin{figure} \vspace{-30pt}
+		\includegraphics[width=0.8\linewidth]{hist_mumu_log.png}
+		\caption{$\mu \mu$ channel}
+	\end{figure}
+\end{columns}
+\begin{columns}
+	\column{0.5\textwidth} 
+	\begin{figure} \vspace{-10pt}
+		\includegraphics[width=0.8\linewidth]{hist_muel_log.png}
+		\caption{$e \mu$ channel}
+	\end{figure}
+	\column{0.5\textwidth}
+	\begin{figure} \vspace{-10pt}
+		\includegraphics[width=0.8\linewidth]{hist_elel_log.png}
+		\caption{$ee$ channel}
+	\end{figure}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
 \frametitle{Template Fit in OS Dilepton Channel}
 \vspace{-10pt} 
 \begin{table}
@@ -408,7 +440,7 @@ combined	& $9.4^{+4.0}_{-2.7}$ & $86.5^{+37}_{-25}$ & 0.25 \\
 \vspace{0pt} 
 \begin{tabular}{| c | c | c | c |}
 \hline
-Channel	&Expected limit	&Expected limit	&Expected \\
+Channel	&Expected limit	&Expected xsec	&Expected \\
  & $\times \sigma_{t\bar{t}t\bar{t}}^{SM}$ &  $\times fb$ &significance \\
 \hline
 $\mu \mu$	&$14.56_{-5.24}^{+9.64}$ &$134_{-48}^{+89}$ &0.19  \\
@@ -421,24 +453,6 @@ combined		&$6.88_{-2.42}^{+4.44}$ &$63_{-22}^{+41}$ &0.52  \\
 \hline
 \end{tabular} 
 \end{table}
-\underline{Highest region blinded postfit BDT distributions} \vspace{-10pt}
-\begin{columns}
-	\column{0.33\textwidth}
-	\begin{figure}
-		\includegraphics[width=\linewidth]{hist_mumu_log.png}
-		\caption{$\mu \mu$ channel}
-	\end{figure}
-	\column{0.33\textwidth}
-	\begin{figure}
-		\includegraphics[width=\linewidth]{hist_muel_log.png}
-		\caption{$e\mu$ channel}
-	\end{figure}
-	\column{0.33\textwidth} 
-	\begin{figure}
-		\includegraphics[width=\linewidth]{hist_elel_log.png}
-		\caption{$ee$ channel}
-	\end{figure}
-\end{columns}
 \end{frame}
 
 %------------------------------------------------
