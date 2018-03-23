@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.15)  22 MAR 2018 21:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.15)  23 MAR 2018 11:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1000,46 +1000,56 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2
 
-] [3
+]
 
-] [4
+LaTeX Warning: Reference `newsample' on page 3 undefined on input line 160.
+
+
+LaTeX Warning: Reference `newsample2' on page 3 undefined on input line 160.
+
+[3
+
+]
+
+LaTeX Warning: Reference `mcsample' on page 4 undefined on input line 197.
+
+[4
 
 ] [5
 
-] <semilepbdt.png, id=60, 509.905pt x 345.29pt>
+] <semilepbdt.png, id=61, 509.905pt x 345.29pt>
 File: semilepbdt.png Graphic file (type png)
-
-<use semilepbdt.png>
+ <use semilepbdt.png>
 Package pdftex.def Info: semilepbdt.png used on input line 276.
 (pdftex.def)             Requested size: 101.97919pt x 69.05676pt.
- <dilepbdt.png, id=62, 790.955pt x 633.36626pt>
-File: dilepbdt.png Graphic file (type png)
 
-<use dilepbdt.png>
+<dilepbdt.png, id=63, 790.955pt x 633.36626pt>
+File: dilepbdt.png Graphic file (type png)
+ <use dilepbdt.png>
 Package pdftex.def Info: dilepbdt.png used on input line 276.
 (pdftex.def)             Requested size: 94.9105pt x 76.00067pt.
  [6
 
- <./semilepbdt.png> <./dilepbdt.png>]
-<multitopness.png, id=71, 999.735pt x 975.645pt>
+ <./semilepbdt.png> <./dilepbdt.png>] <multitopness.png, id=71, 999.735pt x 975
+.645pt>
 File: multitopness.png Graphic file (type png)
- <use multitopness.png>
+
+<use multitopness.png>
 Package pdftex.def Info: multitopness.png used on input line 304.
 (pdftex.def)             Requested size: 79.98042pt x 78.05319pt.
-
-<leptonpt.png, id=72, 999.735pt x 975.645pt>
+ <leptonpt.png, id=72, 999.735pt x 975.645pt>
 File: leptonpt.png Graphic file (type png)
- <use leptonpt.png>
+
+<use leptonpt.png>
 Package pdftex.def Info: leptonpt.png used on input line 304.
 (pdftex.def)             Requested size: 79.98042pt x 78.05319pt.
-
-<5thjetpt.png, id=73, 999.735pt x 975.645pt>
+ <5thjetpt.png, id=73, 999.735pt x 975.645pt>
 File: 5thjetpt.png Graphic file (type png)
- <use 5thjetpt.png>
+
+<use 5thjetpt.png>
 Package pdftex.def Info: 5thjetpt.png used on input line 304.
 (pdftex.def)             Requested size: 79.98042pt x 78.05319pt.
-
-<HTB.png, id=74, 999.735pt x 975.645pt>
+ <HTB.png, id=74, 999.735pt x 975.645pt>
 File: HTB.png Graphic file (type png)
  <use HTB.png>
 Package pdftex.def Info: HTB.png used on input line 304.
@@ -1218,7 +1228,14 @@ Overfull \vbox (0.67645pt too high) detected at line 573
 
 [18
 
- <./impacts1.pdf, page is rotated 90 degrees>] [19
+ <./impacts1.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `impacts1' on page 19 undefined on input line 591.
+
+
+LaTeX Warning: Reference `impacts2' on page 19 undefined on input line 591.
+
+[19
 
 ] [20
 
@@ -1229,7 +1246,7 @@ Overfull \vbox (0.67645pt too high) detected at line 573
 ] [23
 
 ]
-Overfull \vbox (2.87137pt too high) detected at line 721
+Overfull \vbox (2.87137pt too high) detected at line 722
  []
 
 [24
@@ -1237,12 +1254,12 @@ Overfull \vbox (2.87137pt too high) detected at line 721
 ] [25
 
 ]
-Overfull \hbox (21.77536pt too wide) in paragraph at lines 764--764
+Overfull \hbox (21.77536pt too wide) in paragraph at lines 765--765
  [] 
  []
 
 
-Overfull \vbox (9.3379pt too high) detected at line 764
+Overfull \vbox (9.3379pt too high) detected at line 765
  []
 
 [26
@@ -1259,22 +1276,22 @@ Overfull \vbox (9.3379pt too high) detected at line 764
 File: impacts2.pdf Graphic file (type pdf)
 
 <use impacts2.pdf>
-Package pdftex.def Info: impacts2.pdf used on input line 857.
+Package pdftex.def Info: impacts2.pdf used on input line 858.
 (pdftex.def)             Requested size: 144.68132pt x 118.90645pt.
  <impacts3.pdf, id=606, 569.12625pt x 467.7475pt>
 File: impacts3.pdf Graphic file (type pdf)
 
 <use impacts3.pdf>
-Package pdftex.def Info: impacts3.pdf used on input line 857.
+Package pdftex.def Info: impacts3.pdf used on input line 858.
 (pdftex.def)             Requested size: 144.68132pt x 118.90645pt.
  <impacts4.pdf, id=607, 569.12625pt x 467.7475pt>
 File: impacts4.pdf Graphic file (type pdf)
 
 <use impacts4.pdf>
-Package pdftex.def Info: impacts4.pdf used on input line 857.
+Package pdftex.def Info: impacts4.pdf used on input line 858.
 (pdftex.def)             Requested size: 144.68132pt x 118.90645pt.
 
-Overfull \vbox (6.53978pt too high) detected at line 857
+Overfull \vbox (6.53978pt too high) detected at line 858
  []
 
 [31
@@ -1284,22 +1301,22 @@ Overfull \vbox (6.53978pt too high) detected at line 857
 <impacts5.pdf, id=711, 569.12625pt x 467.7475pt>
 File: impacts5.pdf Graphic file (type pdf)
  <use impacts5.pdf>
-Package pdftex.def Info: impacts5.pdf used on input line 878.
+Package pdftex.def Info: impacts5.pdf used on input line 879.
 (pdftex.def)             Requested size: 144.68132pt x 118.90645pt.
 
 <impacts6.pdf, id=712, 569.12625pt x 467.7475pt>
 File: impacts6.pdf Graphic file (type pdf)
  <use impacts6.pdf>
-Package pdftex.def Info: impacts6.pdf used on input line 878.
+Package pdftex.def Info: impacts6.pdf used on input line 879.
 (pdftex.def)             Requested size: 144.68132pt x 118.90645pt.
 
 <impacts7.pdf, id=713, 569.12625pt x 467.7475pt>
 File: impacts7.pdf Graphic file (type pdf)
  <use impacts7.pdf>
-Package pdftex.def Info: impacts7.pdf used on input line 878.
+Package pdftex.def Info: impacts7.pdf used on input line 879.
 (pdftex.def)             Requested size: 144.68132pt x 118.90645pt.
 
-Overfull \vbox (6.53978pt too high) detected at line 878
+Overfull \vbox (6.53978pt too high) detected at line 879
  []
 
 [32
@@ -1315,11 +1332,11 @@ Overfull \vbox (6.53978pt too high) detected at line 878
 \tf@snm=\write8
 \openout8 = `fourtop.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 887.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 887.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 888.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 888.
  (./fourtop.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 887.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 887.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 888.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 888.
 Package rerunfilecheck Info: File `fourtop.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1327,14 +1344,20 @@ Package rerunfilecheck Info: File `fourtop.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 887.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 888.
  ) 
 Here is how much of TeX's memory you used:
- 17573 strings out of 493014
- 333441 string characters out of 6133351
- 409053 words of memory out of 5000000
- 20580 multiletter control sequences out of 15000+600000
- 19992 words of font info for 72 fonts, out of 8000000 for 9000
+ 17574 strings out of 493014
+ 333457 string characters out of 6133351
+ 408764 words of memory out of 5000000
+ 20581 multiletter control sequences out of 15000+600000
+ 20286 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,21n,55p,387b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
@@ -1363,7 +1386,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on fourtop.pdf (32 pages, 1433853 bytes).
+Output written on fourtop.pdf (32 pages, 1434200 bytes).
 PDF statistics:
  918 PDF objects out of 1000 (max. 8388607)
  589 compressed objects within 6 object streams
